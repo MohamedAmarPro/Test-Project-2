@@ -9,7 +9,7 @@ const Payment = () => {
     <>
       <div className="main-form">
 
-        <form name="contact" method="post" data-netifly="true" onSubmit="submit">
+        <form name="contact" method="post" data-netlify="true" onSubmit="submit">
           <div className="billing">
 
           <h2>Billing address</h2>
