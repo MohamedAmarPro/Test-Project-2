@@ -9,10 +9,11 @@ const Payment = () => {
     <>
       <div className="main-form">
 
-        <form>
+        <form name="contact" method="post" data-netifly="true" onSubmit="submit">
           <div className="billing">
 
           <h2>Billing address</h2>
+          <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="FullName">
             Full Name <br/>
             <input type="text" name="FullName"  id="FullName" placeholder="Full Name" />
@@ -20,7 +21,7 @@ const Payment = () => {
 
           <label htmlFor="Email">
             Email<br/>
-            <input type="text" name="Email" id="Email" placeholder="Email" />
+            <input type="email" name="email" id="email" placeholder="email" />
           </label>
 
           <label htmlFor="Address">
