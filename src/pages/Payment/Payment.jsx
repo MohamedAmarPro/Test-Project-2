@@ -83,7 +83,7 @@ const Payment = () => {
 
         </form>
         <div className="btn-payment">
-        <button>Confirm</button>
+        <button type="submit">Confirm</button>
 
         </div>
       </div>
