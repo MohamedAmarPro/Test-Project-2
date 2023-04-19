@@ -133,10 +133,10 @@ const Payment = () => {
               </div>
             </div>
           </div>
-        </form>
         <div className="btn-payment">
           <button type="submit">Confirm</button>
         </div>
+        </form>
       </div>
       <NavLink to="/">Retour</NavLink>
     </>
